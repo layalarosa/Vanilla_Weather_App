@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('images/sunny.jpg');
+    background-image: url('images/bg.jpg');
     height: 100vh;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body {
     background-color: rgba(255,255,255,0.6);
     border: none;
     outline: none;
-    color: #582233;
+    color: #0b0b0b;
     font-size: 1.2rem;
     height: 50px;
     border-radius: 5px;
@@ -46,7 +46,7 @@ body {
 
 .weather-body {
     display: none;
-    color: #582233;
+    color: #0b0b0b;
     padding: 20px;
     line-height: 2rem;
     border-radius: 10px;
@@ -73,3 +73,36 @@ body {
     font-size: 12pt;
     font-weight: 600;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    /* border-right:1px solid #bbb; */
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
