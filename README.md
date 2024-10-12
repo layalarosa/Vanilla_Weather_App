@@ -5,3 +5,7 @@ Key Components
 API Configuration
 
 The weatherApi object stores the base URL for the API and the API key, which is necessary for authentication when making requests to the OpenWeatherMap service.
+
+10/12/2024 Update on the way v.1.0
+
+
