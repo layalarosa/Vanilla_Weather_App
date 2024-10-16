@@ -8,4 +8,6 @@ The weatherApi object stores the base URL for the API and the API key, which is 
 
 10/12/2024 Update on the way v.1.0
 
+10/16/2024 Update on the way v.1.0
+UI Changes
 
